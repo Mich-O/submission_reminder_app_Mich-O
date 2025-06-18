@@ -35,5 +35,6 @@ copilot_shell_script.sh
 README.md
 So what are you supposed to create?
 The create_environment.sh That creates the directory submission_reminder_{yourName} With the subdirectories inside and the files required. 
+The create_environment.sh That creates the directory submission_reminder_{yourName} With the subdirectories inside and the files required.
 The copilot_shell_script.sh that allows a user to enter another assignment name, and we check if there are students who have not submitted
 
