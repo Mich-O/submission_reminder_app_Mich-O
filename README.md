@@ -1,5 +1,6 @@
 Component 1: Setup Script
-A shell script named create_environment.sh 
+
+A shell script named create_environment.sh
 It sets up the directory structure for an application called submission_reminder_app.
 This script creates the necessary directories and files for a program that shows students who need to be reminded of their pending submissions.
 The submissions.txt  contains the sample records of the student’s submission status.
