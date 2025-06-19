@@ -3,6 +3,18 @@
 echo -n "What is your name? "
 read yourName
 
+#Missing name error handling
+if [ -z "$yourName" ]; then
+   echo "Name cannot be empty! Please rerun script and enter your name."
+   exit 1
+fi
+
+#Spaced name error handling
+if [[ "$yourName" == *" "* ]]; then
+   echo "Your name should have no spaces!"
+   exit 1
+fi
+
 #Create and access directory with the name input
 mkdir submission_reminder_${yourName}
 cd submission_reminder_${yourName}
